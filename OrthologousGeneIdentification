@@ -1,0 +1,23 @@
+### Import coding sequences of avian species from the database ensembl
+# Download the coding sequences of golen eagle (Aquila chrysaetos chrysaetos) 
+
+wgt https://ftp.ensembl.org/pub/release-109/fasta/aquila_chrysaetos_chrysaetos/cds/Aquila_chrysaetos_chrysaetos.bAquChr1.2.cds.all.fa.gz
+
+# Donload the coding sequences of Burrowing owl (Athene cunicularia)
+
+wget https://ftp.ensembl.org/pub/release-109/fasta/athene_cunicularia/cds/Athene_cunicularia.athCun1.cds.all.fa.gz
+
+# Donload the coding sequences of Eurasian eagle-owl (Bubo bubo)
+
+wget https://ftp.ensembl.org/pub/release-109/fasta/bubo_bubo/cds/Bubo_bubo.BubBub1.0.cds.all.fa.gz
+
+# Donload the coding sequences of Northern spotted owl (Strix occidentalis caurina)
+
+wget https://ftp.ensembl.org/pub/release-109/fasta/strix_occidentalis_caurina/cds/Strix_occidentalis_caurina.Soccid_v01.cds.all.fa.gz
+
+# Donload the coding sequences of Oriental scops-owl (Otus sunia)
+
+wget https://ftp.ensembl.org/pub/release-109/fasta/strix_occidentalis_caurina/cds/Strix_occidentalis_caurina.Soccid_v01.cds.all.fa.gz
+
+
+### Install the package "Biostrings"
